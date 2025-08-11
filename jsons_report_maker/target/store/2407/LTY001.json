@@ -1,0 +1,17 @@
+{
+  "id": "LTY001",
+  "object": "coupon",
+  "amount_off": 10,
+  "created": 1672295265,
+  "currency": "inr",
+  "duration": "repeating",
+  "duration_in_months": 3,
+  "livemode": true,
+  "max_redemptions": null,
+  "metadata": {},
+  "name": "25.5% off",
+  "percent_off": 25.5,
+  "redeem_by": null,
+  "times_redeemed": 0,
+  "valid": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "PARTY500",
+  "object": "coupon",
+  "amount_off": 500,
+  "created": 9776,
+  "products": 5,
+  "currency": "usd",
+  "duration": "1 month",
+  "duration_in_months": 3,
+  "discount": true,
+  "max_redemptions": null,
+  "metadata": {},
+  "name": "25.5% off",
+  "percent_off": 25.5,
+  "redeem_by": null,
+  "times_redeemed": 0,
+  "valid": true
+}
