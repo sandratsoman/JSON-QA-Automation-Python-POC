@@ -1,0 +1,17 @@
+{
+    "amount_off": null,
+    "created": 9867,
+    "currency": "usd",
+    "duration": "repeating",
+    "duration_in_months": 7,
+    "id": "HAPPY",
+    "max_redemptions": null,
+    "metadata": {},
+    "mode": true,
+    "name": "25.5% off",
+    "object": "coupon",
+    "percent_off": 25.5,
+    "redeem_by": null,
+    "times_redeemed": 0,
+    "valid": true
+}

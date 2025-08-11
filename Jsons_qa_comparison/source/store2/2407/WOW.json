@@ -1,0 +1,17 @@
+{
+  "id": "WOW",
+  "object": "coupon",
+  "amount_off": 200,
+  "created": 1672295180,
+  "currency": "usd",
+  "duration": "repeating",
+  "duration_in_months": 3,
+  "livemode": false,
+  "max_redemptions": null,
+  "metadata": {},
+  "name": "25.5% off",
+  "percent_off": 25.5,
+  "redeem_by": "Akash",
+  "times_redeemed": 0,
+  "valid": false
+}

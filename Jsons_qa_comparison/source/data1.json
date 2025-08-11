@@ -1,0 +1,10 @@
+{
+    "name": "John",
+    "age": 22,
+    "hobby": {
+	"reading" : false,
+	"gaming" : true
+    },
+    "class" : ["JavaScript", "HTML", "CSS"],
+    "Job Title": "Lead developer"
+}

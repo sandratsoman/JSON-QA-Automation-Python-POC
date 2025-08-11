@@ -1,0 +1,80 @@
+{
+  "employee": "shreenithiravi",
+  "detail": {
+    "firstname": "shreenithi",
+    "lastname": "ravi",
+    "role":"tester" ,
+    "details" : {
+      "empcode": "56188",
+      "salary": "9LPA"
+    },
+    "Experience": [
+      {
+        "_type": "IT",
+        "skill_set": [
+          {
+            "Hands_on": {
+              "_type": "knowledge",
+              "isInclusive": true,
+              "Tech": [
+                "Azure","AWS","GCP","Bigdata","Docker"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": [],
+    "Salary": [
+      {
+        "pay": {
+          "Gross_salary": 50000,
+          "tax_eligibility": null,
+          "_type": "GSAL"
+        },
+        "Bonus": {
+          "_type": "allowance",
+          "isInclusive": true,
+          "Loyalty_bonus_each_quarter": [
+            "5000",
+            "10000",
+            "3000",
+            "4000"
+          ]
+        },
+        "Education": {
+          "Max_CGPA": 10,
+          "UG": [
+            {
+              "Arts_Science": [
+                {
+                  "_type": "under_graduate",
+                  "Marks": {
+                    "_type": "score",
+                    "isInclusive": true,
+                    "semester_CGPA": [
+                      "6.5",
+                      "8.5",
+                      "7.8",
+                      "8.9"
+                    ]
+                  },
+                  "percentage": 7.2
+                }
+              ]
+            }
+          ]
+        },
+        "_type": "emp_rec",
+        "_exp_gap": "null"
+      }
+    ],
+    "ismedicalbenefiteligible": false,
+    "isLTAeligible": false,
+    "Tax_structure": {
+      "_type": "old"
+    },
+    "_disability": "no"
+  },
+  "isQualifyingcandidate": true
+}

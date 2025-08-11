@@ -1,0 +1,124 @@
+{
+    "id": "be06e104-e11f-405d-843e-abfa460cd03a",
+    "code": "9216",
+    "createdAt": 1624279914844,
+    "createdBy": "Unknown",
+    "updatedAt": 1624279914844,
+    "updatedBy": "Unknown",
+    "dataVersion": "AAAAAEySdjk=",
+    "display": {},
+    "deal": {
+        "id": "d29a08eb-9d01-44d5-80d5-d038082405a0",
+        "priority": 500,
+        "usesPerOrder": 0,
+        "source": {
+            "code": "9216",
+            "_type": "Coupon"
+        },
+        "qualifiers": [
+            {
+                "_type": "Order",
+                "orderConstraints": [
+                    {
+                        "_type": "ServiceMethod",
+                        "isInclusive": true,
+                        "serviceMethods": [
+                            "Carryout"
+                        ]
+                    },
+                    {
+                        "_type": "Channel",
+                        "isInclusive": true,
+                        "channels": [
+                            "Digital",
+                            "Pulse"
+                        ]
+                    },
+                    {
+                        "_type": "Time",
+                        "intervals": [
+                            "T16:00:00/PT5H"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "benefits": [],
+        "components": [
+            {
+                "offeringQualifier": {
+                    "quantity": 1,
+                    "display": {},
+                    "fulfillment": null,
+                    "_type": "Buy"
+                },
+                "offeringSet": {
+                    "_type": "Sku",
+                    "default": "",
+                    "isInclusive": true,
+                    "skus": [
+                        "10SCDELUX",
+                        "10SCEXTRAV",
+                        "10SCMEATZA",
+                        "10SCPFEAST",
+                        "10SCREEN",
+                        "10TDELUX",
+                        "10TEXTRAV",
+                        "PBKIREZZ"
+                    ]
+                },
+                "offeringBenefit": {
+                    "maxNumberOfferings": 50,
+                    "benefits": [
+                        {
+                            "_type": "InitialPrice",
+                            "offeringSetOverride": {
+                                "_type": "Sku",
+                                "isInclusive": true,
+                                "skus": [
+                                    "10SCDELUX",
+                                    "10SCEXTRAV",
+                                    "PBKIREZA",
+                                    "PBKIREZZ"
+                                ]
+                            },
+                            "amount": 0.0
+                        },
+                        {
+                            "_type": "IngredientBenefit",
+                            "offeringSetOverride": {
+                                "_type": "Sku",
+                                "isInclusive": true,
+                                "skus": [
+                                    "12SCREEN",
+                                    "12THIN",
+                                    "P12IPAZA"
+                                ]
+                            },
+                            "quantityTiersOverride": {
+                                "1": 1.0
+                            },
+                            "ingredientTiersOverride": null,
+                            "discount": {
+                                "_type": "Target",
+                                "code": "P",
+                                "quantity": 2,
+                                "amount": 3.0
+                            },
+                            "float": false
+                        }
+                    ]
+                },
+                "_type": "Offering",
+                "_extended": null
+            }
+        ],
+        "isBenefitBulkEligible": false,
+        "isQualifierBulkEligible": false,
+        "captureStrategy": {
+            "_type": "ProductPrice"
+        },
+        "_extended": null
+    },
+    "isQualifyingAmountExempt": false
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "Sandra",
+    "Qualification": "MSc",
+    "age": 22,
+    "hobby": {
+	"reading" : true,
+	"sport" : "football"
+    },
+    "class" : ["Python", "R"]
+}
